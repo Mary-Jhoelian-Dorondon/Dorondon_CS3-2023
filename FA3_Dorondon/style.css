@@ -3,7 +3,7 @@
 	<head>
 		<title> CSS Properties </title>
 		<style>
-			* {
+			{
 				box-sizing: border-box;
 			}
 			body {
