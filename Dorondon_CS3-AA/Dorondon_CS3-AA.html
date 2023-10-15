@@ -1,23 +1,122 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Crimson Rabbit Hole</title>
-		<style>
-			header{
-				padding: 80px;
- 				text-align: center;
-				background-image: url("https://scontent.fdvo1-1.fna.fbcdn.net/v/t1.15752-9/370247309_315892364480356_113793855552633451_n.png?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGtKbCioY83GE1qpZKDtAx05pzDq3555EXmnMOrfnnkRTcJbHOIJTw4GadNAKF66IkwGNCZMnJG3aCGPH1K1arB&_nc_ohc=JRsuADQkJWcAX_X2adM&_nc_ht=scontent.fdvo1-1.fna&oh=03_AdTKlHgPgMoLTdbOOOGamCU7tuIKUaiiMmIHnYDakVro0w&oe=6551F083");
-			}
-			header h1 {
-				font-size: 40px;
-			}
+<html lang="en">
+<head>
+<title>Crimson Rabbit Hole</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+	header {
+		padding: 80px;
+		text-align: center;
+		color: white;
+		font-family: Times New Roman, Garamond;
+		background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/370247309_315892364480356_113793855552633451_n.png?stp=dst-png_p403x403&_nc_cat=104&ccb=1-7&_nc_sid=510075&_nc_eui2=AeGtKbCioY83GE1qpZKDtAx05pzDq3555EXmnMOrfnnkRTcJbHOIJTw4GadNAKF66IkwGNCZMnJG3aCGPH1K1arB&_nc_ohc=JRsuADQkJWcAX_Gc8sI&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRbEqNpY-ZLCENCHafN7LQzzy6L_yFoPDgQJBiuVIMCgQ&oe=655309C3");
 
-		</style>
-	</head>
-	<body>
-		<div class="header">
-			<h1>Crimson Rabbit Hole</h1>
-  			<p>A website for manhwa fanatics</p>
-		</div>
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+	side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+	main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+	fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Crimson Rabbit Hole</h1>
+  <p>A website for manhwa fanatics</p>
+</div>
+
+<div class="navbar">
+  <a href="file:///C:/Users/mary%20jhoelian/Desktop/koko.html">Home</a>
+  <a href="#">Page 1</a>
+  <a href="#">Page 2</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About The Website</h2>
+	<h5>What is this website about?<h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>	This website is to help people who are passionate about manhwas and just want to have a good read. The manhwas will also be organized by genre. It will contain short reviews and parts of the manhwas plot which will help the user to have a grasp about the plot of the said manhwa. The website will also contain some panels of the manhwa and also some cover photos to show the artstyle.
+</p>
+  </div>
+  <div class="main">
+    <h2>Romance</h2>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <h2>Action</h2>
+    <div class="fakeimg" style="height:200px;">Image</div>
+  </div>
+</div>
 </body>
 </html>
