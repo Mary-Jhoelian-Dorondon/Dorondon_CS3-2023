@@ -2,5 +2,9 @@
 <html>
   <head>
     <title> Isha's Webpage </title>
+    <style>
+      {
+        box-sizing: border-box;
+      }
   </head>
 </html>
