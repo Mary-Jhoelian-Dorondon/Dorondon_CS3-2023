@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BATCH 2027</title>
+    <style>
+      body{
+        background-image: url("batch2027.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: 100% 100%;
+      }
+      .batch h3{
+        color: white;
+        position: fixed;
+        bottom: 80px;
+        left: 25px;;
+        border: 5px hidden;
+        padding-right: 50px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(0 0 0 / 50%);
+        border-radius: 25px;
+      }
+      .navbar {
+ 	overflow: hidden;
+	position: sticky;
+	top: 0;
+	border-radius: 25px;
+     }
+     .navbar a {
+	color: black;
+  	float: right;
+  	display: block;
+  	text-align: center;
+  	padding: 14px 20px;
+  	text-decoration: none;
+     }
+     .logo img{
+	margin-top: 80px;
+	margin-bottom: 150px;
+	margin-left: 25px;
+	border-radius: 25px;
+     }
+     .Chloe h3{
+	color: white;
+        position: fixed;
+        bottom: 400px;
+        left: 450px;
+        border: 5px hidden;
+        padding-right: 100px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(0 0 0 / 50%);
+        border-radius: 25px;
+     }
+     .CQ p{
+	color: white;
+        position: fixed;
+        bottom: 180px;
+        left: 450px;
+        border: 5px hidden;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(0 0 0 / 50%);
+        border-radius: 25px;
+        width: 315px;
+     }
+     .Adri h3{
+	color: white;
+        position: fixed;
+        bottom: 400px;
+        right: 200px;
+        border: 5px hidden;
+        padding-right: 100px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(0 0 0 / 50%);
+        border-radius: 25px;
+     }
+     .AD p{
+	color: white;
+        position: fixed;
+        bottom: 100px;
+        right: 200px;
+        border: 5px hidden;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(0 0 0 / 50%);
+        border-radius: 25px;
+        width: 315px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="batch">
+    	<h3>BATCH 2027 - Interview regarding classes</h3>
+    </div>
+    <div class="navbar">
+      <a href="https://www.facebook.com/profile.php?id=61551814917998&mibextid=ZbWKwL">More about the batch</a>
+      <a href="https://mary-jhoelian-dorondon.github.io/Dorondon_CS3-2023/2nd%20Quarter_Project/2nd%20Qearter%20Project_Page%201.html">Interview regarding classes</a>
+      <a href="https://mary-jhoelian-dorondon.github.io/Dorondon_CS3-2023/2nd%20Quarter_Project/2nd%20Quarter%20Project_Page%202.html">A view in extracurriculars</a>
+      <a href="">Dealing with Assessments</a>
+      <a href="https://mary-jhoelian-dorondon.github.io/Dorondon_CS3-2023/2nd%20Quarter_Project/2nd%20Quarter%20Project_Page%204.html">Batch competitions</a>
+      <a href="https://mary-jhoelian-dorondon.github.io/Dorondon_CS3-2023/2nd%20Quarter_Project/Dorondon_2nd%20Quarter%20Project.html">Home Page</a>
+    </div>
+    <div class="logo">
+      <img src="batch2.jpg" alt="Logo" width="400" height="350">
+    </div>
+    <div class="Chloe">
+	    <h3>CHLOE QUEEN LICAYAN</h3>
+    </div>
+    <div class="Adri">
+	    <h3>ADRIANA FAYE MARFIL</h3>
+    <div class="interview">
+	<div class="CQ">
+		<p>I typically set an alarm early in the morning so I could prepare more and have time to energize myself before going out of the dorm so I'd feel much more refreshed, I always think "Ah, I'd be able to rest after this" when going through classes, it keeps me motivated to not sleep in class. I do get tired and even the action of sleeping comes to mind, I try to not do any of those things with the help of humming a song to keep my focus during the lessons until it ends</p>
+	</div>
+	<div class="AD">
+		<p>I get through and get ready for my classes every day as a student in PSHS-SRC batch ‘27 by first accomplishing my morning routine in the dorm. When I wake up; I immediately do some stretches, tidy my bed, brush my teeth, wash my face, shower, get changed, and prepare my things for school. After that, I head to the canteen to eat breakfast with my friends. What helps me get through my classes is my friendship with other people. It makes the challenging and pressuring school environment less taxing and more bearable. After classes, I hang out with them to regain my energy and have fun. At times, we also ask each other for help in certain subjects and exchange notes.</p>
+	</div>
+    </div>
+  </body>
+</html>
