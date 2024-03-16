@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Coding Challenge 5
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: lightseagreen;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <h1> Modified FLAMES </h1>
+
+        <button onclick="flames()">Match Names</button>
+        <h3 id="name"></h3>
+
+        <h4>FLAMES Result:</h4>
+        <h3 id="result"></h3>
+
+
+        <script>
+			
+            function flames(){
+				var be= prompt("Enter your name: ");
+				var log= prompt("Enter your partner's name: ");
+			
+				document.getElementById("name").innerHTML=be + " + " + log;
+                var bb=be.length;
+			    var ll=log.length;
+			  
+			    var rara=bb+ll;
+			   
+			    var CQ=rara%6;
+			   
+				if(CQ==1){
+					document.getElementById("result").innerHTML="Friends";
+				}
+				else if(CQ==2){
+					document.getElementById("result").innerHTML="Lovers";
+				}
+				else if(CQ==3){
+					document.getElementById("result").innerHTML="Acquaintances";
+				}
+				else if(CQ==4){
+					document.getElementById("result").innerHTML="Marriage";
+				}
+				else if(CQ==5){
+					document.getElementById("result").innerHTML="Enemies";
+				}
+				else if(CQ==0){
+					document.getElementById("result").innerHTML="Sweethearts";
+				}
+               
+            }
+        </script>
+    </body>
+</html>
+Sent 2d ago
+Write to Isha Dump
