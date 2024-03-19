@@ -29,20 +29,16 @@
         <h3 id="total">0</h3>
         <span onclick="clearP()">Clear</span>
 
-
         <script>
             let total = 0;
 			
             function totalP(price) {
-				total=total+price;
-				document.getElementById("total").innerHTML=total;
+		total=total+price;
+		document.getElementById("total").innerHTML=total;
             }
-			
-            
-            //clears the total payment and display 0 in h3.
             function clearP(){
-				total=0;
-               document.getElementById("total").innerHTML=total;
+		total=0;
+               	document.getElementById("total").innerHTML=total;
             }
         </script>
 		
