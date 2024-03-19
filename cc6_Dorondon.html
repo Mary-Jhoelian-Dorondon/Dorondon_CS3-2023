@@ -21,31 +21,28 @@
 
         <script>
             function solve(){
-						var a = prompt("Enter the value of a");
-						var b = prompt("Enter the value of b");
-						var c = prompt("Enter the value of c");
+		var a = prompt("Enter the value of a");
+		var b = prompt("Enter the value of b");
+		var c = prompt("Enter the value of c");
 					
-						var discriminant = b * b - 4 * a * c;
+		var discriminant = b * b - 4 * a * c;
 						
-						var x1, x2;
+		var x1, x2;
 		
-						if (discriminant === 0) {
-						  x1 = x2 = -b / (2 * a);
+		if (discriminant === 0) {
+			x1 = x2 = -b / (2 * a);
 						  
-						  document.getElementById("result").innerHTML="x1 and x2 are both " + x1;
-						} 
-						else if (discriminant > 0) {
-						  x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
-						  x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+			document.getElementById("result").innerHTML="x1 and x2 are both " + x1;
+		} 
+		else if (discriminant > 0) {
+			x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+			x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
 						  
-						  document.getElementById("result").innerHTML="The x1 is " + x1 + " and the x2 is " + x2;
-						} 
-						else if(discriminant<0){
-						  document.getElementById("result").innerHTML="Both x1 and x2 are imaginary";
-						}
-						
-						
-					  
+			document.getElementById("result").innerHTML="The x1 is " + x1 + " and the x2 is " + x2;
+		} 
+		else if(discriminant<0){
+			document.getElementById("result").innerHTML="Both x1 and x2 are imaginary";
+		}			  
             }
         </script>
     </body>
