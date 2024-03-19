@@ -21,40 +21,37 @@
         <h4>FLAMES Result:</h4>
         <h3 id="result"></h3>
 
-
         <script>
-			
             function flames(){
-				var be= prompt("Enter your name: ");
-				var log= prompt("Enter your partner's name: ");
+		var be= prompt("Enter your name: ");
+		var log= prompt("Enter your partner's name: ");
 			
-				document.getElementById("name").innerHTML=be + " + " + log;
+		document.getElementById("name").innerHTML=be + " + " + log;
                 var bb=be.length;
-			    var ll=log.length;
+		var ll=log.length;
 			  
-			    var rara=bb+ll;
+		var rara=bb+ll;
 			   
-			    var CQ=rara%6;
+		var CQ=rara%6;
 			   
-				if(CQ==1){
-					document.getElementById("result").innerHTML="Friends";
-				}
-				else if(CQ==2){
-					document.getElementById("result").innerHTML="Lovers";
-				}
-				else if(CQ==3){
-					document.getElementById("result").innerHTML="Acquaintances";
-				}
-				else if(CQ==4){
-					document.getElementById("result").innerHTML="Marriage";
-				}
-				else if(CQ==5){
-					document.getElementById("result").innerHTML="Enemies";
-				}
-				else if(CQ==0){
-					document.getElementById("result").innerHTML="Sweethearts";
-				}
-               
+		if(CQ==1){
+			document.getElementById("result").innerHTML="Friends";
+		}
+		else if(CQ==2){
+			document.getElementById("result").innerHTML="Lovers";
+		}
+		else if(CQ==3){
+			document.getElementById("result").innerHTML="Acquaintances";
+		}
+		else if(CQ==4){
+			document.getElementById("result").innerHTML="Marriage";
+		}
+		else if(CQ==5){
+			document.getElementById("result").innerHTML="Enemies";
+		}
+		else if(CQ==0){
+			document.getElementById("result").innerHTML="Sweethearts";
+		}
             }
         </script>
     </body>
