@@ -27,10 +27,12 @@
 		var log= prompt("Enter your partner's name: ");
 			
 		document.getElementById("name").innerHTML=be + " + " + log;
-                var bb=be.length;
-		var ll=log.length;
+        	var bb=be.replace(/[^a-zA-Z0123456789]/g, "");;
+		var ll=log.replace(/[^a-zA-Z0123456789]/g, "");;
 			  
-		var rara=bb+ll;
+		var newbb=bb.length;
+		var newll=ll.length;
+		var rara=newbb+newll;
 			   
 		var CQ=rara%6;
 			   
