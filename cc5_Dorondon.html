@@ -27,8 +27,8 @@
 		var log= prompt("Enter your partner's name: ");
 			
 		document.getElementById("name").innerHTML=be + " + " + log;
-        	var bb=be.replace(/[^a-zA-Z0123456789]/g, "");;
-		var ll=log.replace(/[^a-zA-Z0123456789]/g, "");;
+        	var bb=be.replace(/[\s~`!@#$%^&*(){}\[\];:"'<,.>?\/\\|_+=-]/g, '');
+		var ll=log.replace(/[\s~`!@#$%^&*(){}\[\];:"'<,.>?\/\\|_+=-]/g, '');
 			  
 		var newbb=bb.length;
 		var newll=ll.length;
